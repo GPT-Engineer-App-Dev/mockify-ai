@@ -1,15 +1,15 @@
 // Complete the Index page component here
 // Use chakra-ui
-import { Button } from "@chakra-ui/react"; // example
-import { FaPlus } from "react-icons/fa"; // example - use react-icons/fa for icons
+import { Heading, VStack } from "@chakra-ui/react";
 
 const Index = () => {
-  // TODO: Create the website here!
   return (
-    <Button>
-      Hello world! <FaPlus />
-    </Button>
-  ); // example
+    <VStack spacing={8} align="center" justify="center" minHeight="100vh">
+      <Heading as="h1" size="2xl">
+        Welcome to Chakra UI ❤️
+      </Heading>
+    </VStack>
+  );
 };
 
 export default Index;
